@@ -1,8 +1,14 @@
 aid: forta-fka-montera
 name: Forta (fka Montera)
-description: 'Forta (fka Montera) is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Forta Health (formerly Montera, Inc.) is a San Francisco based digital
+  health company making Applied Behavior Analysis (ABA) therapy accessible to families
+  of children with autism spectrum disorder. Forta connects families with board-certified
+  behavior analysts (BCBAs) and registered behavior technicians (RBTs) for evidence-based
+  care delivered virtually across 43 states and in-home in select cities, with active
+  parent involvement, no waitlists, and Medicaid and insurance accepted. Backed by
+  Insight Partners, the company raised a $55M Series A. It operates a consumer-facing
+  healthcare service and does not currently publish a public developer API, SDKs, or
+  documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/forta-fka-montera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/62605ac6c670d21352ebb32c/675d0e02ce1be8abd64c0749_opengraph.webp
 tags:
 - Company
 - Consumer
+- Healthcare
+- Autism
+- ABA Therapy
+- Telehealth
+- Behavioral Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.fortahealth.com/
+- type: Blog
+  url: https://www.fortahealth.com/resources
+- type: Support
+  url: https://www.fortahealth.com/contact
+- type: TermsOfService
+  url: https://www.fortahealth.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.fortahealth.com/privacy-policy
+- type: DomainSecurity
+  url: security/forta-fka-montera-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
